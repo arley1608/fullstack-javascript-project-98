@@ -1,0 +1,15 @@
+root: true
+env:
+  es2022: true
+  node: true
+
+extends:
+  - airbnb-base
+
+parserOptions:
+  ecmaVersion: 2022
+  sourceType: module
+
+rules:
+  no-console: off
+  import/extensions: off
